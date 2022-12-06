@@ -53,7 +53,7 @@ const App = () => {
     if(firstNumber === '0'){
         setFirstNumber(String(currentNumber));
         setCurrentNumber('0')
-        setOperation('-')
+        setOperation('/')
     }else {
       const sum = Number(firstNumber) / Number(currentNumber);
       setCurrentNumber(String(sum))
@@ -67,7 +67,7 @@ const App = () => {
     if(firstNumber === '0'){
         setFirstNumber(String(currentNumber));
         setCurrentNumber('0')
-        setOperation('-')
+        setOperation('x')
     }else {
       const sum = Number(firstNumber) * Number(currentNumber);
       setCurrentNumber(String(sum))
@@ -84,9 +84,15 @@ const App = () => {
             handleSumNumbers();
             break;
           case '-':
-            handleMinusNumbers();
+            handleMinusNumbers(); 
             break;
-          default: 
+          case '/':
+            handleDivideNumbers();
+            break;
+          case 'x':
+            handleMultiplNumbers();
+            break;
+          default:
             break;
         }
     }
