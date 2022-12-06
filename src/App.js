@@ -127,6 +127,9 @@ const App = () => {
           <Button label="3" onClick={() => handleAddNumber('3')}/>
           <Button label="=" onClick={handleEquals}/>
         </Row>
+        <Row>
+          <Button label="0" onClick={() => handleAddNumber('0')}/>
+        </Row>
       </Content>
     </Container>
   );
