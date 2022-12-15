@@ -1,3 +1,7 @@
+# DIO-CALCULADORA
+
+![calculadora](https://user-images.githubusercontent.com/116196987/206016276-4d474788-69af-441e-a572-e4b3ad581489.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
