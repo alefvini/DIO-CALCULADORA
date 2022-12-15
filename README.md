@@ -1,6 +1,6 @@
 # DIO-CALCULADORA
 
-![calculadora](https://user-images.githubusercontent.com/116196987/206016276-4d474788-69af-441e-a572-e4b3ad581489.jpg)
+![calculadora1](https://user-images.githubusercontent.com/116196987/207762264-ccb065e0-37c3-4779-b2c3-28a23db8d5d1.jpg)
 
 # Getting Started with Create React App
 
