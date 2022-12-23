@@ -132,9 +132,6 @@ const App = () => {
           <Button label="0" onClick={() => handleAddNumber('0')}/>
           <Button label="." onClick={() => handleAddNumber('.')}/>
         </Row>
-        <Row>
-          <Button label="0" onClick={() => handleAddNumber('0')}/>
-        </Row>
       </Content>
     </Container>
   );
